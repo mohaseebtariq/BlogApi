@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohaseebtariq/BlogApi.git"
+  },
+  "keywords": [
+    "Blog",
+    "Coding",
+    "News"
+  ],
+  "author": "Haseeb Tariq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohaseebtariq/BlogApi/issues"
+  },
+  "homepage": "https://github.com/mohaseebtariq/BlogApi#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.1",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.0"
+  }
+}
