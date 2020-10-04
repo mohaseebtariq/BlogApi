@@ -10,9 +10,9 @@ app.set(port);
 const server = http.createServer(app);
 
 server.on("listening", function () {
-  console.log("ok, server is running");
+  console.log("Working....");
 });
 
-server.listen(port, () => console.log(`Running on port: ${port}`));
+server.listen(port, () => console.log(`🚀 Server running on port: ${port}`));
 
 app.set("port", port);
