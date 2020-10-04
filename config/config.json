@@ -6,8 +6,8 @@
     "host": "localhost",
     "dialect": "mysql",
     "logging": false
-
   },
+  
   "test": {
     "username": "root",
     "password": null,
