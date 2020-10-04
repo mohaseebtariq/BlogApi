@@ -6,7 +6,7 @@ exports.validatePost = (req, res, next) => {
   const {
     body: { title, content }
   } = req;
-
+  console.log(req);
   const postSchema = Joi.object().keys({
     title: Joi.string()
       .min(5)
