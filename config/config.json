@@ -1,10 +1,18 @@
 {
   "development": {
-    "username": "root",
-    "password": "Teady.Bear???4224",
-    "database": "blog",
-    "host": "localhost",
-    "dialect": "mysql",
+    "username": "bbenhjtkvzyqpp",
+    "password": "e126677a38c2b3cc4f75a9b58be0452328d8ebd291d644956bd3c5e9d0fd8ea1",
+    "database": "d7c7n95gju5ark",
+    "host": "ec2-52-21-247-176.compute-1.amazonaws.com",
+    "port": "5432",
+    "dialect":"postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+  },
     "logging": false
   },
   
@@ -15,12 +23,21 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
+  
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
+    "username": "bbenhjtkvzyqpp",
+    "password": "e126677a38c2b3cc4f75a9b58be0452328d8ebd291d644956bd3c5e9d0fd8ea1",
+    "database": "d7c7n95gju5ark",
+    "host": "ec2-52-21-247-176.compute-1.amazonaws.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+  },
     "logging": false
   }
 }
